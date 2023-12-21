@@ -61,7 +61,7 @@ public class OrderNowServlet extends HttpServlet {
                 response.sendRedirect("login.jsp");
             }
 
-        } catch (ClassNotFoundException|SQLException e) {
+        } catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} 

@@ -49,7 +49,7 @@ public class CheckOutServlet extends HttpServlet {
 			}else {
 				response.sendRedirect("login.jsp");
 			}
-		} catch (ClassNotFoundException|SQLException e) {
+		} catch (SQLException e) {
 			
 			e.printStackTrace();
 		}

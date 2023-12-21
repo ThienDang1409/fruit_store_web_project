@@ -37,7 +37,7 @@ public class LoginServlet extends HttpServlet {
                 response.sendRedirect("adminindex.jsp");
 			}
 
-		} catch (ClassNotFoundException|SQLException e) {
+		} catch (SQLException e) {
 			e.printStackTrace();
 		} 
 
